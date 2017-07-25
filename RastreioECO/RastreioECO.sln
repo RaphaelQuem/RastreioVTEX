@@ -5,6 +5,14 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO", "RastreioECO.csproj", "{2CAE46BC-2C3B-4E1E-B498-99DEE880E720}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioEco.Model", "..\RastreioEco.Model\RastreioEco.Model.csproj", "{F8FFAB26-66FE-42E7-BD79-B12393917628}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.DAO", "RastreioECO.DAO\RastreioECO.DAO.csproj", "{54F11DDB-6498-444F-95DF-97C1B7A46110}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.Infra", "RastreioECO.Infra\RastreioECO.Infra.csproj", "{6A53F843-DC43-4491-8E50-AC6A5CBAF8F4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.Test", "RastreioECO.Test\RastreioECO.Test.csproj", "{EACF4C76-FDBA-405B-8E14-4034FA358480}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +23,22 @@ Global
 		{2CAE46BC-2C3B-4E1E-B498-99DEE880E720}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CAE46BC-2C3B-4E1E-B498-99DEE880E720}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CAE46BC-2C3B-4E1E-B498-99DEE880E720}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8FFAB26-66FE-42E7-BD79-B12393917628}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8FFAB26-66FE-42E7-BD79-B12393917628}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8FFAB26-66FE-42E7-BD79-B12393917628}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8FFAB26-66FE-42E7-BD79-B12393917628}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54F11DDB-6498-444F-95DF-97C1B7A46110}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54F11DDB-6498-444F-95DF-97C1B7A46110}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54F11DDB-6498-444F-95DF-97C1B7A46110}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54F11DDB-6498-444F-95DF-97C1B7A46110}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6A53F843-DC43-4491-8E50-AC6A5CBAF8F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6A53F843-DC43-4491-8E50-AC6A5CBAF8F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6A53F843-DC43-4491-8E50-AC6A5CBAF8F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6A53F843-DC43-4491-8E50-AC6A5CBAF8F4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

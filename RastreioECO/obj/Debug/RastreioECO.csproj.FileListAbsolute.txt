@@ -1,1 +1,14 @@
 C:\REPOS\RastreioEco\RastreioECO\bin\Debug\RastreioECO.exe.config
+C:\REPOS\RastreioEco\RastreioECO\bin\Debug\RastreioECO.exe
+C:\REPOS\RastreioEco\RastreioECO\bin\Debug\RastreioECO.pdb
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.csprojResolveAssemblyReference.cache
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\MainWindow.g.cs
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\App.g.cs
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO_MarkupCompile.cache
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO_MarkupCompile.lref
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\MainWindow.baml
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.g.resources
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.Properties.Resources.resources
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.csproj.GenerateResource.Cache
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.exe
+C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.pdb

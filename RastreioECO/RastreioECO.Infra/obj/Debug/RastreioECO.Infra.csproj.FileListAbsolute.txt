@@ -1,0 +1,5 @@
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Infra\bin\Debug\RastreioECO.Infra.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Infra\bin\Debug\RastreioECO.Infra.pdb
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Infra\obj\Debug\RastreioECO.Infra.csprojResolveAssemblyReference.cache
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Infra\obj\Debug\RastreioECO.Infra.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Infra\obj\Debug\RastreioECO.Infra.pdb

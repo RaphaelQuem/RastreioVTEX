@@ -1,0 +1,12 @@
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioECO.Test.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioECO.Test.pdb
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioECO.DAO.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioECO.Infra.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioEco.Model.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioEco.Model.pdb
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioECO.DAO.pdb
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\bin\Debug\RastreioECO.Infra.pdb
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\obj\Debug\RastreioECO.Test.csprojResolveAssemblyReference.cache
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\obj\Debug\RastreioECO.Test.dll
+C:\REPOS\RastreioEco\RastreioECO\RastreioECO.Test\obj\Debug\RastreioECO.Test.pdb

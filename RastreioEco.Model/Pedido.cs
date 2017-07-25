@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace RastreioEco.Model
 {
-    public class Class1
+    public class Pedido
     {
+        public string PedidoWeb { get; set; }
+        public int Notas { get; set; }
+        public string NfeChv { get; set; }
+        public string NfeXML { get; set; }
     }
 }
