@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>d9bb1826-09e9-4676-afec-519e5c4f8c31</ProjectGuid>
+    <ProjectGuid>{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>RastreioECO.Controller</RootNamespace>
@@ -30,24 +30,182 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="System"/>
-    
-    <Reference Include="System.Core"/>
-    <Reference Include="System.Xml.Linq"/>
-    <Reference Include="System.Data.DataSetExtensions"/>
-    
-    
-    <Reference Include="Microsoft.CSharp"/>
-    
-    <Reference Include="System.Data"/>
-    
-    <Reference Include="System.Net.Http"/>
-    
-    <Reference Include="System.Xml"/>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Service References\WsVTEX\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+    <Compile Include="TotalController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="VTEXController.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\RastreioEco.Model\RastreioEco.Model.csproj">
+      <Project>{F8FFAB26-66FE-42E7-BD79-B12393917628}</Project>
+      <Name>RastreioEco.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RastreioECO.DAO\RastreioECO.DAO.csproj">
+      <Project>{54F11DDB-6498-444F-95DF-97C1B7A46110}</Project>
+      <Name>RastreioECO.DAO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\RastreioECO.Infra\RastreioECO.Infra.csproj">
+      <Project>{6A53F843-DC43-4491-8E50-AC6A5CBAF8F4}</Project>
+      <Name>RastreioECO.Infra</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.AddressDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.AddressDTO2.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.BrandDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.CategoryDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ClientDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.FieldDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.FreightDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.FreightStockKeepingUnitDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.GiftCardDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.GiftListDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.GiftListMemberDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.GiftListStockKeepingUnitDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.GiftListTypeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ImageDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.IntegrationDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.IntegrationErrorDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.IntegrationInterfaceDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.NewsletterDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.OrderDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.OrderInteractionDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.OrderStatusDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.PaymentDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ProductDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ServiceDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ServiceInsertUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ServicePriceDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ServicePriceInsertUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.StockKeepingUnitDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.StockKeepingUnitKitDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.StockKeepingUnitKitInsertUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.StockKeepingUnitServiceDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.StockKeepingUnitServiceInsertUpdateResponse.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.StoreDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.WareHouseIStockableDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\RastreioECO.Controller.WsVTEX.ZipCodeDTO.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\WsVTEX\Service.wsdl" />
+    <None Include="Service References\WsVTEX\Service.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WsVTEX\Service1.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WsVTEX\Service2.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WsVTEX\Service3.xsd">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Service References\WsVTEX\Service4.xsd">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\WsVTEX\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsVTEX\configuration91.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsVTEX\configuration.svcinfo" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Service References\WsVTEX\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
@@ -57,5 +215,4 @@
   <Target Name="AfterBuild">
   </Target>
   -->
-
- </Project>
+</Project>

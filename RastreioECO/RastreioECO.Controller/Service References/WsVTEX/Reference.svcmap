@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="0bd93d9a-6f3d-498c-b294-bb376f77a06d" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <GenerateTaskBasedAsynchronousMethod>true</GenerateTaskBasedAsynchronousMethod>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://webservice-montecarlo.vtexcommerce.com.br/service.svc?wsdl" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="Service.wsdl" MetadataType="Wsdl" ID="36b0abed-4e57-4fe3-b1d4-d5fafaa71267" SourceId="1" SourceUrl="http://webservice-montecarlo.vtexcommerce.com.br/service.svc?wsdl" />
+    <MetadataFile FileName="Service.xsd" MetadataType="Schema" ID="49264cb4-e870-4822-a22c-62a56626db2e" SourceId="1" SourceUrl="http://webservice-montecarlo.vtexcommerce.com.br/AdminWebService/Service.svc?xsd=xsd4" />
+    <MetadataFile FileName="Service1.xsd" MetadataType="Schema" ID="f0a68434-6663-45ec-b27f-bbf7b1da73c8" SourceId="1" SourceUrl="http://webservice-montecarlo.vtexcommerce.com.br/AdminWebService/Service.svc?xsd=xsd0" />
+    <MetadataFile FileName="Service2.xsd" MetadataType="Schema" ID="774129e9-6aed-4c79-9339-7a7bc95e73bd" SourceId="1" SourceUrl="http://webservice-montecarlo.vtexcommerce.com.br/AdminWebService/Service.svc?xsd=xsd1" />
+    <MetadataFile FileName="Service3.xsd" MetadataType="Schema" ID="5ff582f9-e8f6-4b00-bd4e-1e9a410c5cbd" SourceId="1" SourceUrl="http://webservice-montecarlo.vtexcommerce.com.br/AdminWebService/Service.svc?xsd=xsd2" />
+    <MetadataFile FileName="Service4.xsd" MetadataType="Schema" ID="273a4977-24b5-47e1-8041-4be1c1c0808b" SourceId="1" SourceUrl="http://webservice-montecarlo.vtexcommerce.com.br/AdminWebService/Service.svc?xsd=xsd3" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

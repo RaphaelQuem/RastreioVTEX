@@ -13,6 +13,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.Infra", "Rastre
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.Test", "RastreioECO.Test\RastreioECO.Test.csproj", "{EACF4C76-FDBA-405B-8E14-4034FA358480}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.Controller", "RastreioECO.Controller\RastreioECO.Controller.csproj", "{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RastreioECO.ViewModel", "RastreioECO.ViewModel\RastreioECO.ViewModel.csproj", "{967A4E45-F246-4655-9E8B-B96F71A48F0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +43,14 @@ Global
 		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EACF4C76-FDBA-405B-8E14-4034FA358480}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{967A4E45-F246-4655-9E8B-B96F71A48F0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{967A4E45-F246-4655-9E8B-B96F71A48F0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{967A4E45-F246-4655-9E8B-B96F71A48F0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{967A4E45-F246-4655-9E8B-B96F71A48F0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

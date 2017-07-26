@@ -18,7 +18,7 @@ namespace RastreioECO.Test
             {
                 PedidoDAO dao = new PedidoDAO(connection);
 
-                List<Pedido> pedidos = dao.ListarPedidos();
+                List<Pedido> pedidos = dao.ListarPedidos(true);
 
                 Assert.IsTrue(pedidos.Count > 0);
 

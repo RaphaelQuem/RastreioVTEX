@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RastreioECO"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
+        Title="MainWindow" Height="404.131" Width="1072.988">
+
+    <Grid Margin="0,0,0,-3">
+        <DataGrid ItemsSource="{Binding Path=Pedidos, Mode=TwoWay}" CanUserResizeColumns="True" AutoGenerateColumns="False" 
+                          SelectedItem="{Binding  Path=Pedido, Mode=TwoWay}" CanUserAddRows="False"   Margin="10,23,530,82" RowHeaderWidth="0" Name="ListaPedidos"  >
+            <DataGrid.Columns>
+                <DataGridCheckBoxColumn Binding="{Binding Path=Checado}" Width="25" />
+                <DataGridTextColumn Header="Pedido" Binding="{Binding Path=PedidoWeb}" Width="150"/>
+                <DataGridTextColumn Header="Nota" IsReadOnly="True" Binding="{Binding Path=Notas}" Width="60"/>
+                <DataGridTextColumn Header="XML" IsReadOnly="True" Binding="{Binding Path=NfeXML}" Width="180"/>
+                <DataGridTextColumn Header="Subido" IsReadOnly="True" Binding="{Binding Path=ChkRastreio}" Width="80"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <CheckBox x:Name="chk" HorizontalAlignment="Left" Margin="16,28,0,0" VerticalAlignment="Top" IsChecked="{Binding Path=CheckAllChecked, Mode=TwoWay}" Click="chk_Checked"/>
+        <Button x:Name="subir" Content="Subir" Command ="{Binding UploadCommand}" HorizontalAlignment="Left" Height="47" Margin="10,0,0,19" VerticalAlignment="Bottom" Width="53" Click="subir_Click"/>
+        <TextBox x:Name="txtlog" HorizontalAlignment="Left" Height="272" Margin="540,23,0,0" TextWrapping="Wrap" Text="{Binding Log}" VerticalAlignment="Top" Width="515"/>
+        <Label x:Name="label" Content="Log" HorizontalAlignment="Left" Height="32" Margin="540,0,0,0" VerticalAlignment="Top" Width="68"/>
+        <Label x:Name="label_Copy" Content="Pedidos" HorizontalAlignment="Left" Height="23" Margin="10,0,0,0" VerticalAlignment="Top" Width="68"/>
+        <CheckBox x:Name="chksimnao" HorizontalAlignment="Left" Margin="1042,311,0,0" VerticalAlignment="Top" IsChecked="{Binding NaoSubidoChecked, Mode=TwoWay}" Click="chksimnao_Checked" />
+        <Label x:Name="label1" Content="Somente pedidos não subidos" HorizontalAlignment="Left" Height="26" Margin="871,304,0,0" VerticalAlignment="Top" Width="170"/>
     </Grid>
+
 </Window>

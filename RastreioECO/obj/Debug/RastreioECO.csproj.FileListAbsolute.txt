@@ -12,3 +12,13 @@ C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.Properties.Resources.reso
 C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.csproj.GenerateResource.Cache
 C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.exe
 C:\REPOS\RastreioEco\RastreioECO\obj\Debug\RastreioECO.pdb
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.Controller.dll
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.DAO.dll
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioEco.Model.dll
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.Infra.dll
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.Controller.pdb
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.DAO.pdb
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioEco.Model.pdb
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.Infra.pdb
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.ViewModel.dll
+C:\Repos\RastreioEco\RastreioECO\bin\Debug\RastreioECO.ViewModel.pdb

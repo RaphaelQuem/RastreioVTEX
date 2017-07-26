@@ -1,0 +1,12 @@
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.Controller.dll.config
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.Controller.dll
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.Controller.pdb
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.DAO.dll
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.Infra.dll
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioEco.Model.dll
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioEco.Model.pdb
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.DAO.pdb
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\bin\Debug\RastreioECO.Infra.pdb
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\obj\Debug\RastreioECO.Controller.csprojResolveAssemblyReference.cache
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\obj\Debug\RastreioECO.Controller.dll
+C:\Repos\RastreioEco\RastreioECO\RastreioECO.Controller\obj\Debug\RastreioECO.Controller.pdb

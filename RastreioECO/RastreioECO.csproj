@@ -95,6 +95,20 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\RastreioEco.Model\RastreioEco.Model.csproj">
+      <Project>{F8FFAB26-66FE-42E7-BD79-B12393917628}</Project>
+      <Name>RastreioEco.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="RastreioECO.Controller\RastreioECO.Controller.csproj">
+      <Project>{D9BB1826-09E9-4676-AFEC-519E5C4F8C31}</Project>
+      <Name>RastreioECO.Controller</Name>
+    </ProjectReference>
+    <ProjectReference Include="RastreioECO.ViewModel\RastreioECO.ViewModel.csproj">
+      <Project>{967A4E45-F246-4655-9E8B-B96F71A48F0A}</Project>
+      <Name>RastreioECO.ViewModel</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
