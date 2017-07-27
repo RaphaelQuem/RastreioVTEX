@@ -44,6 +44,7 @@ namespace RastreioECO.DAO
                 command.CommandText += Environment.NewLine + " 			   on a.empdopnums = c.empdopnums  ";
                 command.CommandText += Environment.NewLine + " where 	a.pedidoweb<> space(50)  ";
                 command.CommandText += Environment.NewLine + " and      rtrim(CONVERT(VARCHAR(MAX), c.nfexml)) != ''";
+                command.CommandText += Environment.NewLine + " and      a.lcancelas = 0";
                 command.CommandText += Environment.NewLine + " and      a.dopes in ('VENDA E-COMM AVULSA ', 'VENDA E-COMMERCE    ','VENDA TROCA E-COMMER') ";
                 command.CommandText += (somenteNaoSubido? " and      c.chkrastreio = 0":"");
 
@@ -60,28 +61,34 @@ namespace RastreioECO.DAO
 
         }
 
-        public void MudarFlagPedido(string pedidoWeb)
+        public void MudarFlagPedido(string pedidoWeb,int flag, string InEqual)
         {
             using (SqlCommand command = connection.CreateCommand())
             {
 
                 command.CommandText = "";
                 command.CommandText += Environment.NewLine + " UPDATE sigmvnfi";
-                command.CommandText += Environment.NewLine + " SET    chkrastreio = 1 ";
-                command.CommandText += Environment.NewLine + " WHERE  EMPDOPNUMS = ";
+                command.CommandText += Environment.NewLine + " SET    chkrastreio = " + flag ;
+                command.CommandText += Environment.NewLine + " WHERE  EMPDOPNUMS " + InEqual;
                 command.CommandText += Environment.NewLine + " (";
                 command.CommandText += Environment.NewLine + " 		SELECT EMPDOPNUMS";
                 command.CommandText += Environment.NewLine + " 		FROM   SIGMVCAB with(nolock)";
-                command.CommandText += Environment.NewLine + " 		WHERE  PEDIDOWEB = @P_PEDIDOWEB";
+                command.CommandText += Environment.NewLine + " 		WHERE  rtrim(ltrim(pedidoweb))  = @P_PEDIDOWEB";
+                command.CommandText += Environment.NewLine + " 		and    dopes in ('VENDA E-COMM AVULSA ', 'VENDA E-COMMERCE    ','VENDA TROCA E-COMMER')";
+                command.CommandText += Environment.NewLine + " 		and    lcancelas = 0";
                 command.CommandText += Environment.NewLine + " )";
 
                 SqlParameter pPedidoWeb = command.CreateParameter();
                 pPedidoWeb.ParameterName = "P_PEDIDOWEB";
                 pPedidoWeb.Value = pedidoWeb;
 
+
                 command.Parameters.Add(pPedidoWeb);
 
-                command.ExecuteNonQuery();
+
+                int x = command.ExecuteNonQuery();
+
+                return;
             }
         }
     }

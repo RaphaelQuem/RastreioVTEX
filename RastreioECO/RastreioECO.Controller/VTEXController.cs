@@ -48,13 +48,15 @@ namespace RastreioECO.Controller
                         vtexservice.UpdateNotifyShipping(dados);
                         controller.UploadXMLPedido(pedido);
                         
-                        MudarFlagPedido(pedido);
+                        MudarFlagPedido(pedido,1,"=");
 
                         sucesso = true;
                     }
                     catch (Exception ex)
                     {
                         log.AppendLine(ex.Message);
+                        if(tentativas.Equals(2))
+                            MudarFlagPedido(pedido,2,"IN");
                         tentativas++;
                         sucesso = false;
                     }
@@ -62,14 +64,14 @@ namespace RastreioECO.Controller
             }
 
         }
-        private void MudarFlagPedido(Pedido pedido)
+        private void MudarFlagPedido(Pedido pedido,int flag,string inEqual)
         {
             using (SqlConnection connection = RastreioHelper.GetOpenConnection())
             {
 
                 PedidoDAO dao = new PedidoDAO(connection);
 
-                dao.MudarFlagPedido(pedido.PedidoOriginal);
+                dao.MudarFlagPedido(pedido.PedidoOriginal,flag,inEqual);
             }
         }
         private ServiceClient getVtexService(string strWebService, string strUser, string strPassword)

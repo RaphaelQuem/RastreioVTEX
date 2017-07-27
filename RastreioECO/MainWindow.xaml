@@ -5,11 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:RastreioECO"
         mc:Ignorable="d"
-        Title="MainWindow" Height="404.131" Width="1072.988">
+        Title="MainWindow" Height="404.131" Width="1081.144">
 
     <Grid Margin="0,0,0,-3">
         <DataGrid ItemsSource="{Binding Path=Pedidos, Mode=TwoWay}" CanUserResizeColumns="True" AutoGenerateColumns="False" 
-                          SelectedItem="{Binding  Path=Pedido, Mode=TwoWay}" CanUserAddRows="False"   Margin="10,23,530,82" RowHeaderWidth="0" Name="ListaPedidos"  >
+                          SelectedItem="{Binding  Path=Pedido, Mode=TwoWay}" CanUserAddRows="False"   Margin="10,23,538,82" RowHeaderWidth="0" Name="ListaPedidos"  >
             <DataGrid.Columns>
                 <DataGridCheckBoxColumn Binding="{Binding Path=Checado}" Width="25" />
                 <DataGridTextColumn Header="Pedido" Binding="{Binding Path=PedidoWeb}" Width="150"/>
